@@ -1,0 +1,66 @@
+body {
+	background-color: #232323;
+}
+
+p, h1 {
+  padding: 0;
+  margin: 0;
+}
+
+.gameField {
+	margin: 0px auto;
+  max-width: 50%;
+}
+
+.square {
+	width: 29%;
+	background: purple;
+	padding-bottom: 30%;
+	float: left;
+	margin: 1.66%;
+  border-radius: 1rem;
+  border: 0.175rem dashed #d0d0d0;
+}
+
+h1 {
+	color: white;
+}
+
+.header,
+.message {
+  text-align: center;
+  font: 5rem Impact;
+  padding: 1rem 0;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+  background: #fff;
+  margin-bottom: 1.5rem;
+  padding: 0;
+}
+
+.menu p {
+  font: 2rem Impact;
+  padding: 1rem 3rem;
+}
+
+.button {
+  padding: 1rem 3rem;
+}
+
+.active {
+  background:  #5c9dd9;
+}
+
+.button:hover {
+  background: #5c9dd9;
+  cursor: pointer;
+}
+
+span {
+	color: white;
+  display: block;
+  font-size: 2.5rem;
+}
